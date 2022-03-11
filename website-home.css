@@ -3,10 +3,6 @@
     box-sizing: border-box;
     font-family: monospace;
 }
-.nav a
-{
-  text-decoration: none;
- }
 
 body
 {
@@ -43,7 +39,7 @@ body
     cursor: pointer;
 }
 .navbtn:hover{
-    color: red;
+    color: #3300ff;
 }
 
 .footer
