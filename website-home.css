@@ -19,7 +19,9 @@ body
     text-align:center; 
     color: red; 
 }
-
+a{
+  text-decoration: none;
+}
 .nav
 {
     position: sticky;
