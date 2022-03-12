@@ -13,7 +13,7 @@
         <div class="header"><h1>Tamil Cartoonz</h1></div>
         <div class="nav">
             <a href="index.html"> <div class="navbtn" >HOME</div></a>
-            <div class="navbtn" >SERIES</div>
+            <a href="series.html"> <div class="navbtn" >SERIES</div></a>
             <div class="navbtn" >MOVIES</div>
         </div>
         <div class="box1"> 
@@ -123,6 +123,15 @@
 
         </div>
 <div class="footer"> Website for My Youtuber Friends </div>  
+   
+    <script>
+    $(document).ready(function(){
+        $(".navbtn").click(function(){
+            $(".navbtn").css("color","black"); 
+          $(this).css("color","yellow");
+        });
+    });
+    </script>
     
 </body>
 </html>
